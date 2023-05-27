@@ -1,0 +1,77 @@
+.container{
+    width: 100%;
+    max-width: 1480px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.timeline__inner ul{
+    position: relative;
+}
+
+ul::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 20px;
+    background: #ffffff03;
+    left: 80px;
+    box-shadow: 30px 0px 19px 0px rgb(0 0 0 / 21%);
+    z-index: 999;
+}
+
+.timeline__inner ul li{
+    display: inline-block;
+    margin-bottom: 30px;
+    
+    padding-left: 100px;
+    position: relative;
+}
+
+.timeline__inner ul li:last-child{
+    margin-bottom: 0;
+}
+
+.timeline{
+    padding: 20px 65px 30px 20px;
+    background: linear-gradient(90deg, #4F3495 -12.63%, #E55FDE 51.84%, #5D2D91 111.49%);
+    /* background-image: url(./papper-wrap.png); */
+    color: #fff;
+    /* box-shadow: 129px 99px 178px 11px rgba(0,0,0,0.23); */
+}
+
+.timeline h3{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.timeline .pos{
+    position: absolute;
+    left: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #000;
+    text-align: center;
+}
+
+.timeline .pos span{
+    font-weight: 600;
+    color: rgb(149, 148, 148);
+}
+
+.timeline .pos span:first-child{
+    font-size: 22px;
+}
+
+.timeline .pos span:last-child{
+    font-size: 40px;
+    line-height: 20px;
+}
+
+.timeline__inner ul li
+
+.timeline__inner ul li h3{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
