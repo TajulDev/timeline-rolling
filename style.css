@@ -37,6 +37,7 @@ ul::before {
     background: linear-gradient(90deg, #4F3495 -12.63%, #E55FDE 51.84%, #5D2D91 111.49%);
     /* background-image: url(./papper-wrap.png); */
     color: #fff;
+    /* width: 0px; */
     /* box-shadow: 129px 99px 178px 11px rgba(0,0,0,0.23); */
 }
 
@@ -75,3 +76,44 @@ ul::before {
     font-weight: bold;
     margin-bottom: 6px;
 }
+
+
+
+/*  */
+/* .timeline{
+    width: 100%;
+    height: 180px;
+    animation: backgroundAnimation 2s linear forwards;
+    overflow: hidden;
+} */
+
+/* @keyframes backgroundAnimation{
+    0%{
+       width: 0%;
+    }  
+
+    100%{
+        width: 100%;
+    }
+} */
+
+
+.timeline h3,
+.timeline p {
+    opacity: 0;
+    animation: textAnimation 2s forwards;
+    /* display: none; */
+}
+
+@keyframes textAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(0);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(1);
+    }
+}
+
