@@ -183,14 +183,14 @@ ul::before {
     margin-bottom: 6px;
   }
   
-  @keyframes imageAnimation {
+  /* @keyframes imageAnimation {
     0% {
       width: 0%;
     }
     100% {
       width: 100%;
     }
-  }
+  } */
 
   .timeline__content{
     height: 100px;
