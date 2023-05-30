@@ -111,6 +111,11 @@
     }
   }
 
+  @media screen and (max-width: 767px) {
+    .timeline__content{
+      height: unset;
+    }
+  }
 
 
   /* === */
