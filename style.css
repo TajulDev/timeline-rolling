@@ -85,6 +85,7 @@
 
   .timeline__content{
     /* height: 100px; */
+    height: 80px;
     overflow: hidden;
   }
   
