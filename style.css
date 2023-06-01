@@ -35,18 +35,18 @@
     padding: 20px 65px 30px 20px;
     background: linear-gradient(90deg, #4F3495 -12.63%, #E55FDE 51.84%, #5D2D91 111.49%);
     color: #fff;
-    width: 0;
+    /* width: 0; */
     animation: timelineAnimation 2s forwards;
   }
   
-  @keyframes timelineAnimation {
+  /* @keyframes timelineAnimation {
     0% {
       width: 0%;
     }
     100% {
       width: 100%;
     }
-  }
+  } */
   
   .timeline h3 {
     font-size: 32px;
@@ -91,11 +91,11 @@
   
   .timeline h3,
   .timeline p {
-    opacity: 0;
+    /* opacity: 0; */
     animation: textAnimation 2.5s forwards;
   }
   
-  @keyframes textAnimation {
+  /* @keyframes textAnimation {
     0% {
       opacity: 0;
       transform: translateY(0);
@@ -109,7 +109,7 @@
       opacity: 1;
       transform: translateY(1);
     }
-  }
+  } */
 
   @media screen and (max-width: 767px) {
     .timeline__content{
